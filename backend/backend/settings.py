@@ -8,8 +8,10 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['62.84.120.245', 'evgeniitaski.sytes.net',
-                 'localhost']  # !Так в продакшен нельзя
+ALLOWED_HOSTS = [
+    '62.84.120.245',
+    'evgeniitaski.sytes.net'
+]
 
 
 # Application definition
